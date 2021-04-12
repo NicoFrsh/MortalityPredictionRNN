@@ -23,7 +23,7 @@ FLAGS <- flags(
         #flag_numeric('lr', 0.01),
         #flag_integer('patience', 35),
         #flag_integer('pats', 20),
-        flag_integer('batch_size', 100), # maybe higher?
+        flag_integer('batch_size', 100),
         flag_string('activation', 'tanh'),
         flag_string('recurrent_activation', 'tanh'),
         flag_string("output_activation", "exponential")
